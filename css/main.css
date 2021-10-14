@@ -18,9 +18,51 @@ html {
 }
 
 body {
-  background-color: gray;
+  background-color: lightgreen;
 /* Use a system font, if none are available use an available sans-sarif   font */
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   margin: 0;
+  font-size: 15px;
+}
+
+#casperGhost{
+  border: 1px solid black;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+#contactInfo {
+  display: flex; 
+  width: 50%;
+}
+
+#email, #phone{
+border: 1px solid black;
+padding: 5px;
+background-color: green;
+width: 100%;
+}
+
+#casperImage{
+  width: 44%;
+  border-right: 1px solid black;
+  width: 100%;
+  background-color: white;
+}
+
+#casperImage img {
+  border-radius: 50%;
+  width: 90%;
+}
+
+#ratings{
+  width: 100%;
+  background-color: lightgrey;
+}
+
+#about {
+  align-items: left; 
 }
